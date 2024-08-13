@@ -70,7 +70,8 @@ int main() {
             std::cout << "Sent data to rover: " << data << std::endl;
         }
 
-        SDL_Delay(100); // Adjust delay as needed
+      	 // Adjust delay as needed
+	 SDL_Delay(50);
     }
 
     SDL_JoystickClose(joystick);
